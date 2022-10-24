@@ -9,6 +9,16 @@ body{
  background-size: cover;
 }
 
+p{
+ padding-bottom: 20px;
+}
+
+section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
 .profile_first {
  width: 80%;
  margin: 0 auto;
@@ -23,17 +33,18 @@ body{
 
 .profile_photo {
  width: 20%;
+ height: 20%;
  margin: 10px;
- border-radius: 100px;
+ border-radius: 100%;
  border: solid black;
 }
 
 .profile_presentation {
  color: black;
  width: 75%;
- margin: auto;
- padding-left: 20px;
- font-size: 20px;
+ margin: auto 0;
+ font-size: 30px;
+ text-align: center ;
 }
 
 .section_principal{
@@ -43,7 +54,18 @@ body{
  padding: 20px;
  background-color: rgba(255,255,255, 0.7);
  border-radius: 20px;
-} 
+}
+
+.title_div{
+ display: block;
+}
+
+.title_section{
+ padding-bottom: 20px;
+ font-size: 2.5rem;
+ justify-content: center;
+ text-align: center;
+}
 
 .footer{
  width: 80%;
