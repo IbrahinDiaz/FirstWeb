@@ -1,0 +1,61 @@
+body{
+ background-image: linear-gradient(
+  rgba(0, 0, 0, 0.7),
+  rgba(0, 0, 0, 0.7)
+ ), 
+  url(./img/background_profile.jfif);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.profile_first {
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 20px;
+ padding: 20px;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-between;
+ background-color: rgba(255,255,255, 0.7);
+ border-radius: 20px;
+}
+
+.profile_photo {
+ width: 20%;
+ margin: 10px;
+ border-radius: 100px;
+ border: solid black;
+}
+
+.profile_presentation {
+ color: black;
+ width: 75%;
+ margin: auto;
+ padding-left: 20px;
+ font-size: 20px;
+}
+
+.section_principal{
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 50px;
+ padding: 20px;
+ background-color: rgba(255,255,255, 0.7);
+ border-radius: 20px;
+} 
+
+.footer{
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 20px;
+ padding: 20px;
+ color: wheat;
+ align-items: center;
+ display: flex;
+}
+
+.footer > p {
+ align-items: center;
+ justify-content: center;
+}
